@@ -1,0 +1,126 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .modal{
+    position: absolute;
+    left:20%;
+    width: 60%;
+    margin: 0px auto;
+    padding: 10px 0 25px;
+  }
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+
+.modal{
+  position: absolute;
+  left:10%;
+  width: 80%;
+  margin: 0px auto;
+  padding: 10px 0 25px;
+}
+
+
+
+#submit-btn {
+  padding: 14px 80px;
+}
+
+#login-form input {
+  width: 90%;
+}
+
+.header ul{
+  display: none;
+}
+
+.fa-bars{
+  display: block !important;
+}
+
+.main-image{
+  height: 400px;
+}
+
+.main-image h1{
+  font-size: 20px;
+}
+
+.main-image span{
+  font-size: 80px;
+}
+
+.main-image p{
+  font-size:12.5px;
+
+}
+
+/* section */
+.section{
+  height: 600px;
+}
+
+img{
+  height: 300px;
+}
+
+
+.img-wrapper{
+  width:100%;
+}
+
+.description{
+  width: 100%;
+  height: 200px;
+  float: none;
+  position: static;
+  text-align: center;
+  margin:50px 0px;
+
+}
+
+.description h2{
+  padding:10px ;
+  font-size: 18px;
+}
+
+.description p{
+  font-size: 15px;
+  padding:0;
+  line-height: 2;
+}
+
+.container>section:nth-last-of-type(even) .img-wrapper{
+  float:none;
+
+}
+
+.container>section:nth-last-of-type(even) .description{
+  float:none;
+  position: static;
+}
+
+footer{
+  text-align: center
+}
+
+.footer-left{
+  float: none;
+  font-size: 10px;
+}
+
+.footer-right {
+  float: none;
+  text-align: center;
+  font-size: 8px;
+}
+
+.footer-right p{
+  margin-top: 0;
+}
+
+.copy{
+  float: center;
+}
+
+
+}
